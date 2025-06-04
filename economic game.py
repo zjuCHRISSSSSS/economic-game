@@ -133,7 +133,7 @@ class CentralBankGame:
         self.canvas.draw()
 
     def show_help(self):
-        messagebox.showinfo("帮助说明", "游戏帮助", """
+        messagebox.showinfo("帮助说明",  """
 【基本玩法】
 您作为央行行长，通过调整利率和货币供应来影响经济。
 每次点击"执行政策"后，经济指标会更新1天。
